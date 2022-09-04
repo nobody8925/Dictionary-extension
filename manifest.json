@@ -1,0 +1,21 @@
+{
+    "name":"Dictionary",
+    "version":"0.0",
+    "description":"Find the meaning of the highlighted word",
+    "manifest_version":2,
+    "background": {
+    	"scripts": ["background.js"],
+    	"persistent": false
+  	},
+    "permissions": ["activeTab", "tabs"],
+    "icons": {
+        "16": "Icon.png"
+    },
+    "browser_action": {},
+    "commands":{
+        "_execute_browser_action": {
+            "suggested_key": "Ctrl+Shift+Space",
+            "description": "Search meaning of word"
+        }
+    }
+}
