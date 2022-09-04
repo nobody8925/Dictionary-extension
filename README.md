@@ -1,29 +1,13 @@
-# Guess Word
-This project was done as a personal project. Entire programming was done on python. This is basically a clone of the recently famous game 'Wordle'.<br><br>
+# Dictionary Extension
+This project was done as a personal project. Entire programming was done on Javascript.<br><br>
 
 ## Dependencies used
 
-   * [Pygame](https://www.pygame.org/)
+   * [Javascript](https://www.javascript.com/)
 ## Usage
 
-In order to run the website locally on your computer , follow the steps given below:
+In order to run the extension, follow the steps given below:
 
 * Clone this github repo.
-* Open the terminal and change the directory to the downloaded folder then run the command 
-
-```sh
- pip install pygame
-```
-
-* The above command will install all the required packages and dependencies required for the project 
-* The final step is to run the following command
-
-```sh
- python main.py
-
-```
-
-## Game page
-
-
- 
+* Unload the extension in Chrome and enable it.
+* Select a word and press Ctrl+Shift+Space to get the meaning.
